@@ -31,6 +31,6 @@ If you found a bug, have questions, or are just having trouble with RADWave, ple
 
 
 # References
-Ribal, A., Young, I.R. 33 years of globally calibrated wave height and wind speed data based on altimeter observations. Sci Data 6, 77 (2019) doi:10.1038/s41597-019-0083-9
+Ribal, A. and Young, I.R., 2019. 33 years of globally calibrated wave height and wind speed data based on altimeter observations. *Scientific Data* 6(77), p.100.
 
-Young, I. R., Zieger, S. & Babanin, A. V. (2011), ‘Global trends in wind speedand wave height’,Science332(6028), 451–455
+Young, I. R., Zieger, S. and Babanin, A. V., 2011. Global trends in wind speed and wave height. *Science 332*(6028), p451–455.
