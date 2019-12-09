@@ -1,4 +1,36 @@
 # Altimeter_waves
-This repository shows how to calculate short term wave conditions and long term wave climate statistics from satellite radar altimeters. It can also be used to determine wind conditions, however wind is not explicitly discussed in this project. Altimeters are widely established as an accurate remote sensing technique, and are particularly advantageous for remote areas, and locations with no long term monitoring of waves. 
- 
-To use this code, altimeter data compiled and calibrated by Ribal and Young (2019) is accessed through the Australian Ocean Data Network (https://portal.aodn.org.au/search). This database is regularly updated using altimeter data from 1985-present, and can be downloaded in 1° x 1° URL files. Notebook1 uses a txt file (named IMOS.txt) that directly extracts data from this portal. To access altimeter data for the area of interest, navigate to the AODN data portal and select IMOS-SRS Surface Waves Sub-Facility - altimeter wave/wind data. Determine the spatial and temporal bounding boxes for area of interest. Press next, and select "Download as...", selecting "List of URLs". Save and rename this file as "IMOS.txt", which will be used in Notebook1-Define Area.
+This repository shows how to calculate short term wave conditions and long term wave climate statistics from satellite radar altimeters. It can also be used to determine wind conditions, however wind is not explicitly discussed in this project. Altimeters are widely established as an accurate remote sensing technique, and are particularly advantageous for remote areas, and locations with no long term monitoring of waves (Young et al. 2011). 
+
+# Installation
+
+RADWave accesses altimeter data through the Australian Ocean Data Network ([AODN]) (https://portal.aodn.org.au/search). This dataset was compiled and extensively calibrated by Ribal and Young (2019). It is regularly updated using altimeter data from 1985-present, and can be downloaded in 1° x 1° URL files. Notebook1 uses a txt file (named IMOS.txt) that directly extracts data from this portal. To access altimeter data for the area of interest, navigate to the AODN data portal and select IMOS-SRS Surface Waves Sub-Facility - altimeter wave/wind data. Determine the spatial and temporal bounding boxes for area of interest. Press next, and select "Download as...", selecting "List of URLs". Save and rename this file as "IMOS.txt", which will be used in Notebook1-Define Area.
+
+# Dependencies
+Python2.7 or later is required, in addition to the following packages:
+
+* numpy
+* pandas
+* netCDF4
+* datetime
+* pymannkendall
+
+
+# Collaborations and issues
+Please let us know if you would like to contribute - can be anything from code, notebooks or examples, they all further understanding and development of RADWave. 
+
+To contribute please fork the project make your changes and submit a pull request. We will do our best to work through any issues with you and get your code merged into the main branch.
+
+
+If you found a bug, have questions, or are just having trouble with RADWave, please email Tristan Salles at tristan.salles@sydney.edu.au
+
+
+# License
+
+
+
+
+
+# References
+Ribal, A., Young, I.R. 33 years of globally calibrated wave height and wind speed data based on altimeter observations. Sci Data 6, 77 (2019) doi:10.1038/s41597-019-0083-9
+
+Young, I. R., Zieger, S. & Babanin, A. V. (2011), ‘Global trends in wind speedand wave height’,Science332(6028), 451–455
