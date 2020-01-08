@@ -13,6 +13,7 @@ Python2.7 or later is required, in addition to the following packages:
 * netCDF4
 * datetime
 * pymannkendall
+* seaborn
 
 
 # Collaborations and issues
