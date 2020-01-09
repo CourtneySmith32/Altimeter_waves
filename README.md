@@ -3,7 +3,7 @@ This repository shows how to calculate short term wave conditions and long term 
 
 # Installation
 
-RADWave accesses altimeter data through the Australian Ocean Data Network ([AODN]) (https://portal.aodn.org.au/search). This dataset was compiled and extensively calibrated by Ribal and Young (2019). It is regularly updated using altimeter data from 1985-present, and can be downloaded in 1° x 1° URL files. Notebook1 uses a txt file (named IMOSURLs.txt) that directly extracts data from this portal. To access altimeter data for the area of interest, navigate to the AODN data portal and select IMOS-SRS Surface Waves Sub-Facility - altimeter wave/wind data. Determine the spatial and temporal bounding boxes for area of interest. Press next, and select "Download as...", selecting "List of URLs". Save and rename this file as "IMOS.txt", which will be used in Notebook1-Define Area.
+RADWave accesses altimeter data through the Australian Ocean Data Network ([AODN]) (https://portal.aodn.org.au/search). This dataset was compiled and extensively calibrated by Ribal and Young (2019). It is regularly updated using altimeter data from 1985-present, and can be downloaded in 1° x 1° URL files. Notebook1 uses a txt file (named IMOSURLs.txt) that directly extracts data from this portal. To access altimeter data for the area of interest, navigate to the AODN data portal and select IMOS-SRS Surface Waves Sub-Facility - altimeter wave/wind data. Determine the spatial and temporal bounding boxes for area of interest. Press next, and select "Download as...", selecting "List of URLs". Save and rename this file as "IMOSURLs.txt", which will be used in Notebook1-Define Area.
 
 # Dependencies
 Python3 or later is required, in addition to the following packages:
@@ -23,7 +23,7 @@ Please let us know if you would like to contribute - can be anything from code, 
 To contribute please fork the project make your changes and submit a pull request. We will do our best to work through any issues with you and get your code merged into the main branch.
 
 
-If you found a bug, have questions, or are just having trouble with RADWave, please email Tristan Salles at tristan.salles@sydney.edu.au
+If you found a bug or have any questions please email Tristan Salles at tristan.salles@sydney.edu.au
 
 
 # License
