@@ -1,5 +1,5 @@
 ---
-title: 'RADWave: Python code for ocean surface wave analysis by satellite altimeter'
+title: 'RADWave: Python code for ocean surface wave analysis by satellite radar altimeter'
 tags:
   - Python
   - satellite radar altimeter
