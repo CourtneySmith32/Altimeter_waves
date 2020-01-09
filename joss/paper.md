@@ -21,7 +21,7 @@ affiliations:
 date: 10 January 2020
 bibliography: paper.bib
 ---
-# Summary
+# Summary 
 Satellite radar altimeters are an excellent remote sensing technique that can be used to determine significant wave height and wind speed. These measurements can be used in conjunction to calculate wave height, period and power (Young and Donelan 2018). Since the first launch of the *GEOSAT* altimeter in 1985, there has been almost continuous data collection, with only a small gap between 1989-1992 due to no operating satellites. Consequently, analysis of this long-term temporal record can lead to significant insights into inter-annual, seasonal and decadal variations. Additionally, the high spatial resolution provided by altimeter data is particularly well-suited for remote regions, or locations where no long-term measurements exist (Ribal and Young 2019). An extensive database of all altimeter missions spanning from 1985-present is available on the Australian Ocean Data Network (AODN), compiled, calibrated and validated by Ribal and Young (2019). However, for many users, this dataset can be difficult to analyse as it requires high-level coding experience, and only provides significant wave height and wind speed.
 
 # RADWave
