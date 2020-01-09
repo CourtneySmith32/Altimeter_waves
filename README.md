@@ -12,9 +12,11 @@ Python3 or later is required, in addition to the following packages:
 * pandas
 * netCDF4
 * datetime
-* pymannkendall
+* re
 * seaborn
+* pymannkendall
 * matplotlib
+* math
 
 
 # Collaborations and issues
