@@ -6,7 +6,7 @@ This repository shows how to calculate short term wave conditions and long term 
 RADWave accesses altimeter data through the Australian Ocean Data Network ([AODN]) (https://portal.aodn.org.au/search). This dataset was compiled and extensively calibrated by Ribal and Young (2019). It is regularly updated using altimeter data from 1985-present, and can be downloaded in 1° x 1° URL files. Notebook1 uses a txt file (named IMOS.txt) that directly extracts data from this portal. To access altimeter data for the area of interest, navigate to the AODN data portal and select IMOS-SRS Surface Waves Sub-Facility - altimeter wave/wind data. Determine the spatial and temporal bounding boxes for area of interest. Press next, and select "Download as...", selecting "List of URLs". Save and rename this file as "IMOS.txt", which will be used in Notebook1-Define Area.
 
 # Dependencies
-Python2.7 or later is required, in addition to the following packages:
+Python3 or later is required, in addition to the following packages:
 
 * numpy
 * pandas
@@ -14,6 +14,7 @@ Python2.7 or later is required, in addition to the following packages:
 * datetime
 * pymannkendall
 * seaborn
+* matplotlib
 
 
 # Collaborations and issues
